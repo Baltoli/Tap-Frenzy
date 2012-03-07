@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70ADA5F1505735400115F34 /* Rounded_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F70ADA5E1505735400115F34 /* Rounded_Button.png */; };
+		F753292515013FDE0063C64B /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F753292415013FDE0063C64B /* FlipViewController.m */; };
+		F7532927150147640063C64B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7532926150147640063C64B /* iAd.framework */; };
+		F753292C1502DBE80063C64B /* scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = F753292B1502DBE70063C64B /* scores.plist */; };
+		F7CDBD5614FFE023007E0884 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDBD5514FFE023007E0884 /* UIKit.framework */; };
+		F7CDBD5814FFE023007E0884 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDBD5714FFE023007E0884 /* Foundation.framework */; };
+		F7CDBD5A14FFE023007E0884 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CDBD5914FFE023007E0884 /* CoreGraphics.framework */; };
+		F7CDBD6014FFE023007E0884 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD5E14FFE023007E0884 /* InfoPlist.strings */; };
+		F7CDBD6214FFE023007E0884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDBD6114FFE023007E0884 /* main.m */; };
+		F7CDBD6614FFE023007E0884 /* BSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDBD6514FFE023007E0884 /* BSCAppDelegate.m */; };
+		F7CDBD6914FFE023007E0884 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD6714FFE023007E0884 /* MainStoryboard.storyboard */; };
+		F7CDBD6C14FFE023007E0884 /* BSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDBD6B14FFE023007E0884 /* BSCViewController.m */; };
+		F7CDBD7314FFE285007E0884 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD7214FFE285007E0884 /* reset.png */; };
+		F7CDBD7514FFED1E007E0884 /* linen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD7414FFED1E007E0884 /* linen.jpg */; };
+		F7CDBD7714FFF8CA007E0884 /* IconFull (1).png in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD7614FFF8CA007E0884 /* IconFull (1).png */; };
+		F7CDBD7914FFF8CE007E0884 /* IconFull.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD7814FFF8CE007E0884 /* IconFull.png */; };
+		F7CDBD7E14FFF95A007E0884 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD7C14FFF93A007E0884 /* Default.png */; };
+		F7CDBD7F14FFF95F007E0884 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CDBD7A14FFF933007E0884 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F70ADA5E1505735400115F34 /* Rounded_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rounded_Button.png; path = ../../../../Desktop/Rounded_Button.png; sourceTree = "<group>"; };
+		F753292315013FDE0063C64B /* FlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewController.h; sourceTree = "<group>"; };
+		F753292415013FDE0063C64B /* FlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipViewController.m; sourceTree = "<group>"; };
+		F7532926150147640063C64B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F753292B1502DBE70063C64B /* scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scores.plist; sourceTree = "<group>"; };
+		F7CDBD5114FFE023007E0884 /* Tap Frenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Frenzy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CDBD5514FFE023007E0884 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7CDBD5714FFE023007E0884 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7CDBD5914FFE023007E0884 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7CDBD5D14FFE023007E0884 /* Tap Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap Game-Info.plist"; sourceTree = "<group>"; };
+		F7CDBD5F14FFE023007E0884 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7CDBD6114FFE023007E0884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7CDBD6314FFE023007E0884 /* Tap Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap Game-Prefix.pch"; sourceTree = "<group>"; };
+		F7CDBD6414FFE023007E0884 /* BSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCAppDelegate.h; sourceTree = "<group>"; };
+		F7CDBD6514FFE023007E0884 /* BSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCAppDelegate.m; sourceTree = "<group>"; };
+		F7CDBD6814FFE023007E0884 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F7CDBD6A14FFE023007E0884 /* BSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCViewController.h; sourceTree = "<group>"; };
+		F7CDBD6B14FFE023007E0884 /* BSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCViewController.m; sourceTree = "<group>"; };
+		F7CDBD7214FFE285007E0884 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reset.png; path = ../../../Desktop/reset.png; sourceTree = "<group>"; };
+		F7CDBD7414FFED1E007E0884 /* linen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = linen.jpg; path = ../../../../Desktop/linen.jpg; sourceTree = "<group>"; };
+		F7CDBD7614FFF8CA007E0884 /* IconFull (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconFull (1).png"; sourceTree = "<group>"; };
+		F7CDBD7814FFF8CE007E0884 /* IconFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconFull.png; sourceTree = "<group>"; };
+		F7CDBD7A14FFF933007E0884 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F7CDBD7C14FFF93A007E0884 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CDBD4E14FFE023007E0884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7532927150147640063C64B /* iAd.framework in Frameworks */,
+				F7CDBD5614FFE023007E0884 /* UIKit.framework in Frameworks */,
+				F7CDBD5814FFE023007E0884 /* Foundation.framework in Frameworks */,
+				F7CDBD5A14FFE023007E0884 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CDBD4614FFE023007E0884 = {
+			isa = PBXGroup;
+			children = (
+				F7532926150147640063C64B /* iAd.framework */,
+				F7CDBD7C14FFF93A007E0884 /* Default.png */,
+				F7CDBD7A14FFF933007E0884 /* Default@2x.png */,
+				F7CDBD7814FFF8CE007E0884 /* IconFull.png */,
+				F7CDBD7614FFF8CA007E0884 /* IconFull (1).png */,
+				F7CDBD7214FFE285007E0884 /* reset.png */,
+				F7CDBD5B14FFE023007E0884 /* Tap Game */,
+				F7CDBD5414FFE023007E0884 /* Frameworks */,
+				F7CDBD5214FFE023007E0884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CDBD5214FFE023007E0884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDBD5114FFE023007E0884 /* Tap Frenzy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CDBD5414FFE023007E0884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDBD5514FFE023007E0884 /* UIKit.framework */,
+				F7CDBD5714FFE023007E0884 /* Foundation.framework */,
+				F7CDBD5914FFE023007E0884 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7CDBD5B14FFE023007E0884 /* Tap Game */ = {
+			isa = PBXGroup;
+			children = (
+				F70ADA5E1505735400115F34 /* Rounded_Button.png */,
+				F753292B1502DBE70063C64B /* scores.plist */,
+				F753292315013FDE0063C64B /* FlipViewController.h */,
+				F753292415013FDE0063C64B /* FlipViewController.m */,
+				F7CDBD7414FFED1E007E0884 /* linen.jpg */,
+				F7CDBD6414FFE023007E0884 /* BSCAppDelegate.h */,
+				F7CDBD6514FFE023007E0884 /* BSCAppDelegate.m */,
+				F7CDBD6714FFE023007E0884 /* MainStoryboard.storyboard */,
+				F7CDBD6A14FFE023007E0884 /* BSCViewController.h */,
+				F7CDBD6B14FFE023007E0884 /* BSCViewController.m */,
+				F7CDBD5C14FFE023007E0884 /* Supporting Files */,
+			);
+			path = "Tap Game";
+			sourceTree = "<group>";
+		};
+		F7CDBD5C14FFE023007E0884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CDBD5D14FFE023007E0884 /* Tap Game-Info.plist */,
+				F7CDBD5E14FFE023007E0884 /* InfoPlist.strings */,
+				F7CDBD6114FFE023007E0884 /* main.m */,
+				F7CDBD6314FFE023007E0884 /* Tap Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CDBD5014FFE023007E0884 /* Tap Frenzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CDBD6F14FFE023007E0884 /* Build configuration list for PBXNativeTarget "Tap Frenzy" */;
+			buildPhases = (
+				F7CDBD4D14FFE023007E0884 /* Sources */,
+				F7CDBD4E14FFE023007E0884 /* Frameworks */,
+				F7CDBD4F14FFE023007E0884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Frenzy";
+			productName = "Tap Game";
+			productReference = F7CDBD5114FFE023007E0884 /* Tap Frenzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CDBD4814FFE023007E0884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Balerno High School";
+			};
+			buildConfigurationList = F7CDBD4B14FFE023007E0884 /* Build configuration list for PBXProject "Tap Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7CDBD4614FFE023007E0884;
+			productRefGroup = F7CDBD5214FFE023007E0884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CDBD5014FFE023007E0884 /* Tap Frenzy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CDBD4F14FFE023007E0884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDBD6014FFE023007E0884 /* InfoPlist.strings in Resources */,
+				F7CDBD6914FFE023007E0884 /* MainStoryboard.storyboard in Resources */,
+				F7CDBD7314FFE285007E0884 /* reset.png in Resources */,
+				F7CDBD7514FFED1E007E0884 /* linen.jpg in Resources */,
+				F7CDBD7714FFF8CA007E0884 /* IconFull (1).png in Resources */,
+				F7CDBD7914FFF8CE007E0884 /* IconFull.png in Resources */,
+				F7CDBD7E14FFF95A007E0884 /* Default.png in Resources */,
+				F7CDBD7F14FFF95F007E0884 /* Default@2x.png in Resources */,
+				F753292C1502DBE80063C64B /* scores.plist in Resources */,
+				F70ADA5F1505735400115F34 /* Rounded_Button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CDBD4D14FFE023007E0884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CDBD6214FFE023007E0884 /* main.m in Sources */,
+				F7CDBD6614FFE023007E0884 /* BSCAppDelegate.m in Sources */,
+				F7CDBD6C14FFE023007E0884 /* BSCViewController.m in Sources */,
+				F753292515013FDE0063C64B /* FlipViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7CDBD5E14FFE023007E0884 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CDBD5F14FFE023007E0884 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7CDBD6714FFE023007E0884 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CDBD6814FFE023007E0884 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7CDBD6D14FFE023007E0884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7CDBD6E14FFE023007E0884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CDBD7014FFE023007E0884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Game/Tap Game-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Tap Game/Tap Game-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7CDBD7114FFE023007E0884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Collie (64S34XV73Y)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap Game/Tap Game-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Tap Game/Tap Game-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B15A6C6-A41B-4E00-9621-B249BC039B78";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CDBD4B14FFE023007E0884 /* Build configuration list for PBXProject "Tap Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CDBD6D14FFE023007E0884 /* Debug */,
+				F7CDBD6E14FFE023007E0884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CDBD6F14FFE023007E0884 /* Build configuration list for PBXNativeTarget "Tap Frenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CDBD7014FFE023007E0884 /* Debug */,
+				F7CDBD7114FFE023007E0884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CDBD4814FFE023007E0884 /* Project object */;
+}
